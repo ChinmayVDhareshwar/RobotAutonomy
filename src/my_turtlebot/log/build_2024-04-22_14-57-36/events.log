@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000588] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.000637] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.099831] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300503] (-) TimerEvent: {}
+[0.400785] (-) TimerEvent: {}
+[0.477671] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_turtlebot', 'build', '--build-base', '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build', 'install', '--record', '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chinmay/Desktop/RobotAutonomy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'chinmay', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chinmay', 'OLDPWD': '/home/chinmay/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1982', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1299aaab7652f4fd88e8e78d66263d00', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/chinmay/Desktop/RobotAutonomy/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'chinmay', '_': '/home/chinmay/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chinmay', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/chinmay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Nitro-AN515-45:@/tmp/.ICE-unix/1982,unix/Nitro-AN515-45:/tmp/.ICE-unix/1982', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/166b83ff_259c_4b63_8a2c_0ae87772c515', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1299aaab7652f4fd88e8e78d66263d00', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.500869] (-) TimerEvent: {}
+[0.601077] (-) TimerEvent: {}
+[0.664960] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[0.665343] (my_turtlebot) StdoutLine: {'line': b'creating build/my_turtlebot/my_turtlebot.egg-info\n'}
+[0.665520] (my_turtlebot) StdoutLine: {'line': b'writing build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[0.665723] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[0.665865] (my_turtlebot) StdoutLine: {'line': b'writing entry points to build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[0.665998] (my_turtlebot) StdoutLine: {'line': b'writing requirements to build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[0.666069] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[0.666168] (my_turtlebot) StdoutLine: {'line': b"writing manifest file 'build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.668081] (my_turtlebot) StdoutLine: {'line': b"reading manifest file 'build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.669550] (my_turtlebot) StdoutLine: {'line': b"writing manifest file 'build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.669684] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[0.669764] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[0.669897] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build\n'}
+[0.670032] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib\n'}
+[0.670088] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[0.670184] (my_turtlebot) StdoutLine: {'line': b'copying my_turtlebot/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[0.670243] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[0.670373] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[0.670920] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[0.671023] (my_turtlebot) StdoutLine: {'line': b'copying /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[0.671342] (my_turtlebot) StdoutLine: {'line': b'byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.671505] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[0.671592] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/ament_index\n'}
+[0.671670] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/ament_index/resource_index\n'}
+[0.671744] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[0.671803] (my_turtlebot) StdoutLine: {'line': b'copying resource/my_turtlebot -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[0.671850] (my_turtlebot) StdoutLine: {'line': b'copying package.xml -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot\n'}
+[0.671910] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.671970] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_gazebo.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.672029] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_simulation.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.672248] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_bringup.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.672335] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_rviz.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.672422] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[0.672479] (my_turtlebot) StdoutLine: {'line': b'copying rviz/rviz_launch.rviz -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[0.672587] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[0.672645] (my_turtlebot) StdoutLine: {'line': b'copying worlds/lab_world.world -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[0.672976] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.673044] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.yaml -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.673113] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.pgm -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.673261] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models\n'}
+[0.673315] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.673374] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.673438] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.673528] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.673588] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.673684] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.673777] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.673876] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.673982] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[0.674108] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.674167] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.674431] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/hull.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.677036] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.677298] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.677561] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.677873] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.677952] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.678021] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.678102] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.678181] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.678248] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.678325] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.678398] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.678592] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.678800] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.679011] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.679217] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.679521] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials\n'}
+[0.679582] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[0.679650] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/materials/textures/cardboard_box.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[0.680103] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[0.680172] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/meshes/cardboard_box.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[0.680264] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[0.680340] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[0.680400] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[0.680489] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680549] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680644] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680733] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680819] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680907] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[0.680997] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[0.681058] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[0.681147] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[0.681227] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[0.681307] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[0.681390] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.681445] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.681524] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.681608] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.681664] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.681903] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.682070] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.682285] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.682482] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.682651] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials\n'}
+[0.682714] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[0.682778] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/materials/textures/Backpack.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[0.684231] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[0.684288] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/meshes/Backpack.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[0.684711] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[0.684792] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[0.684862] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[0.684936] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685008] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685100] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685210] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685316] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685414] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[0.685512] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.685568] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/rectable.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.687304] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.687387] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.687474] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.687554] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[0.687640] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.687704] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.687775] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.687860] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.687930] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.688197] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/hull.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.690713] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.690978] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.691242] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.691545] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.691622] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.691689] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.691764] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.691851] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[0.691914] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[0.692040] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.692151] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.692225] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.692310] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials\n'}
+[0.692379] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[0.692440] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/materials/textures/cardboard_box.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[0.692867] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[0.692926] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/meshes/cardboard_box.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[0.693017] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.693074] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.693157] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.693239] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.693325] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[0.693379] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[0.693515] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.693578] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.693649] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.693791] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials\n'}
+[0.693843] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.693893] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/gray-wall.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.701131] (-) TimerEvent: {}
+[0.702426] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/MyImage.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.704501] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.704652] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/wall.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.704757] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/my_ground_plane.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.704864] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[0.704922] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/meshes/chair.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[0.706179] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.706241] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.706321] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.706412] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials\n'}
+[0.706486] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.706556] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_2.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.706845] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_3.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.707164] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_4.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.707480] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_5.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.707830] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/metal_texture.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.707919] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_1.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.708309] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708389] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_3.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708457] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_stand.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708542] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_2.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708633] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_1.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708712] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_4.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708796] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_5.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.708887] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.708943] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker_stand.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.709082] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.709176] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.709237] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.709316] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.709402] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.709459] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.709618] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.709793] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.709953] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.710094] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.710246] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.710308] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin_Diffuse.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.711190] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.711269] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.711377] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[0.711439] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[0.711514] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[0.711599] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[0.711683] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[0.711778] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.711833] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.711942] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.712036] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.712150] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.712251] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[0.712345] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[0.712402] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/chassis.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[0.712581] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/wheel.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[0.712697] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[0.712757] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[0.712835] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[0.712922] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[0.713006] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[0.713094] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[0.713155] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/chassis.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[0.713322] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/wheel.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[0.713435] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[0.713493] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[0.713570] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[0.713651] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[0.713737] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.713793] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.713880] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.713968] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.714053] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.714140] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[0.714240] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.714300] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.714378] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.714462] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.714522] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.714663] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.714779] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.714899] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.715036] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.715158] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715218] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715356] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715480] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715606] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715740] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.715865] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.715926] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.716168] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.716277] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.716359] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.716441] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.716528] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.716591] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.716660] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.716753] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.716809] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.716927] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.717040] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.717145] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.717261] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.717348] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.717408] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.717499] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.717608] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.717697] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.717777] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/MiR100_Diffuse.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.718640] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.718722] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.718860] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.718917] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.718999] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/bookshelf_diffuse.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.719496] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.719586] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_2.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.719670] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.719753] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.719845] (my_turtlebot) StdoutLine: {'line': b'creating /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.719911] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.720157] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.720315] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.720465] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.720666] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.720797] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.722047] (my_turtlebot) StdoutLine: {'line': b'Copying build/my_turtlebot/my_turtlebot.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info\n'}
+[0.722857] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.737895] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log'\n"}
+[0.757174] (my_turtlebot) CommandEnded: {'returncode': 0}
+[0.764909] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[0.765454] (-) EventReactorShutdown: {}

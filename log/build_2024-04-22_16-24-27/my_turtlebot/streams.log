@@ -1,0 +1,20 @@
+[0.779s] Invoking command in '/home/chinmay/Desktop/RobotAutonomy/src/my_turtlebot': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build install --record /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[0.988s] running egg_info
+[0.988s] writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[0.991s] reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] running install
+[0.995s] running install_lib
+[0.995s] running install_data
+[1.000s] running install_egg_info
+[1.003s] removing '/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.003s] Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[1.004s] running install_scripts
+[1.022s] writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log'
+[1.056s] Invoked command in '/home/chinmay/Desktop/RobotAutonomy/src/my_turtlebot' returned '0': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build install --record /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log --single-version-externally-managed install_data

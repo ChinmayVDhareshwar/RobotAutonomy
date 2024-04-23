@@ -1,0 +1,5 @@
+  File "/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization/odometry_node.py", line 68
+    Broadcast the transform
+              ^^^
+SyntaxError: invalid syntax
+

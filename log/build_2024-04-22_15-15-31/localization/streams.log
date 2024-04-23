@@ -1,0 +1,33 @@
+[0.701s] Invoking command in '/home/chinmay/Desktop/RobotAutonomy/src/localization': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data
+[0.889s] running egg_info
+[0.890s] creating ../../build/localization/localization.egg-info
+[0.890s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[0.890s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[0.890s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[0.890s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[0.890s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[0.891s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.891s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.892s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.892s] running build_py
+[0.892s] creating /home/chinmay/Desktop/RobotAutonomy/build/localization/build
+[0.892s] creating /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib
+[0.892s] creating /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization
+[0.892s] copying localization/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization
+[0.892s] running install
+[0.893s] running install_lib
+[0.893s] creating /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization
+[0.893s] copying /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization
+[0.893s] byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+[0.894s] running install_data
+[0.894s] creating /home/chinmay/Desktop/RobotAutonomy/install/localization/share/ament_index
+[0.894s] creating /home/chinmay/Desktop/RobotAutonomy/install/localization/share/ament_index/resource_index
+[0.894s] creating /home/chinmay/Desktop/RobotAutonomy/install/localization/share/ament_index/resource_index/packages
+[0.894s] copying resource/localization -> /home/chinmay/Desktop/RobotAutonomy/install/localization/share/ament_index/resource_index/packages
+[0.894s] copying package.xml -> /home/chinmay/Desktop/RobotAutonomy/install/localization/share/localization
+[0.894s] running install_egg_info
+[0.895s] Copying ../../build/localization/localization.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[0.896s] running install_scripts
+[0.911s] writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/localization/install.log'
+[0.932s] Invoked command in '/home/chinmay/Desktop/RobotAutonomy/src/localization' returned '0': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data

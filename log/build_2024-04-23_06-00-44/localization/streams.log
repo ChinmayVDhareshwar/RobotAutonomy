@@ -1,0 +1,25 @@
+[0.547s] Invoking command in '/home/chinmay/Desktop/RobotAutonomy/src/localization': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data
+[0.750s] running egg_info
+[0.751s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[0.751s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[0.751s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[0.751s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[0.751s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[0.753s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.759s] running build_py
+[0.759s] copying localization/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization
+[0.759s] running install
+[0.759s] running install_lib
+[0.760s] copying /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization
+[0.760s] byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization/enhanced_odometry.py to enhanced_odometry.cpython-310.pyc
+[0.761s] running install_data
+[0.761s] running install_egg_info
+[0.763s] removing '/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.763s] Copying ../../build/localization/localization.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.780s] Installing fused_odom script to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/localization
+[0.780s] Installing odometry_node script to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/localization
+[0.780s] writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/localization/install.log'
+[0.803s] Invoked command in '/home/chinmay/Desktop/RobotAutonomy/src/localization' returned '0': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data

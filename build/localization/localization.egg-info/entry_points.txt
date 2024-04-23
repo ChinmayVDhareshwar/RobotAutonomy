@@ -1,0 +1,4 @@
+[console_scripts]
+fused_odom = localization.enhanced_odometry:main
+odometry_node = localization.odometry_node:main
+
