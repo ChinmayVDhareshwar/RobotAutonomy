@@ -1,0 +1,26 @@
+[0.800s] Invoking command in '/home/chinmay/Desktop/RobotAutonomy/src/localization': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data
+[1.013s] running egg_info
+[1.014s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[1.014s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[1.014s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[1.014s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[1.014s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[1.016s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[1.017s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.017s] copying localization/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization
+[1.017s] running install
+[1.017s] running install_lib
+[1.018s] copying /home/chinmay/Desktop/RobotAutonomy/build/localization/build/lib/localization/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization
+[1.019s] byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization/enhanced_odometry.py to enhanced_odometry.cpython-310.pyc
+[1.019s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (enhanced_odometry.py, line 58)
+[1.019s] running install_data
+[1.019s] running install_egg_info
+[1.021s] removing '/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)
+[1.021s] Copying ../../build/localization/localization.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[1.022s] running install_scripts
+[1.040s] Installing fused_odom script to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/localization
+[1.040s] Installing odometry_node script to /home/chinmay/Desktop/RobotAutonomy/install/localization/lib/localization
+[1.040s] writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/localization/install.log'
+[1.080s] Invoked command in '/home/chinmay/Desktop/RobotAutonomy/src/localization' returned '0': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/localization/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/chinmay/Desktop/RobotAutonomy/build/localization/build install --record /home/chinmay/Desktop/RobotAutonomy/build/localization/install.log --single-version-externally-managed install_data
