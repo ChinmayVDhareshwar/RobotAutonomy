@@ -28,7 +28,7 @@ class WheelOdometry(Node):
         self.vtheta = 0.0
 
         self.last_time = self.get_clock().now()
-        #self.timer = self.create_timer(0.1, self.publish_odometry)  # 20 Hz
+        #self.timer = self.create_timer(0.1, self.publish_odometry)  # 10 Hz
 
     def listener_callback(self, msg):
         self.vx = msg.linear.x

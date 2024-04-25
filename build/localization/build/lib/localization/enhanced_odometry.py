@@ -77,24 +77,25 @@ class FusedOdom(Node):
 		delta_theta = self.vtheta*dt
 
 		self.theta += delta_theta
-		quaternion = self.euler_to_quaternion(0,0, delta_theta)
+		quaternion = self.euler_to_quaternion(0,0, self.theta)
 
 		self.kf.predict()
 		self.kf.update([delta_x,delta_y,delta_theta])
 
+		self.x += self.kf.x[0]
+		self.y += self.kf.y[1]
 		# print("translation x", self.kf.x[0])
 		# print("translation y", self.kf.x[1])
 		# print("quaternion", quaternion)
-		print("Time", current_time)
 
 		odom = Odometry()
 		odom.header = Header()
 		odom.header.stamp = current_time.to_msg()
 		odom.header.frame_id = 'odom'
 		odom.child_frame_id = 'base_footprint'
-		odom.pose.pose.position.x = self.kf.x[0]
-		odom.pose.pose.position.y = self.kf.x[1]
-		odom.pose.pose.position.z = 0.0
+		odom.pose.pose.position.x = self.x
+		odom.pose.pose.position.y = self.y
+		odom.pose.pose.position.z = self.z
 		odom.pose.pose.orientation.x = quaternion[0]
 		odom.pose.pose.orientation.y = quaternion[1]
 		odom.pose.pose.orientation.z = quaternion[2]
@@ -102,12 +103,12 @@ class FusedOdom(Node):
 		self.odom_publisher.publish(odom)
 
 		tf = TransformStamped()
-		tf.header.stamp = self.get_clock().now().to_msg()
+		tf.header.stamp = current_time.to_msg()
 		tf.header.frame_id = 'odom'
 		tf.child_frame_id = 'base_footprint'
-		tf.transform.translation.x = self.kf.x[0]
-		tf.transform.translation.y = self.kf.x[1]
-		tf.transform.translation.z = 0.0
+		tf.transform.translation.x = self.x
+		tf.transform.translation.y = self.y
+		tf.transform.translation.z = self.z
 		tf.transform.rotation.x = quaternion[0]
 		tf.transform.rotation.y = quaternion[1]
 		tf.transform.rotation.z = quaternion[2]

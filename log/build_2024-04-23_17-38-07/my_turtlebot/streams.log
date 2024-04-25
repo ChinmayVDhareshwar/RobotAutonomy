@@ -1,0 +1,210 @@
+[0.741s] Invoking command in '/home/chinmay/Desktop/RobotAutonomy/src/my_turtlebot': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build install --record /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[0.939s] running egg_info
+[0.939s] writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[0.940s] writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[0.940s] writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.944s] writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.944s] running build
+[0.945s] running build_py
+[0.945s] copying my_turtlebot/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot
+[0.945s] copying my_turtlebot/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot
+[0.945s] running install
+[0.945s] running install_lib
+[0.946s] copying /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot/enhanced_odometry.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[0.946s] copying /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build/lib/my_turtlebot/__init__.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[0.947s] byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/enhanced_odometry.py to enhanced_odometry.cpython-310.pyc
+[0.948s] byte-compiling /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/__init__.py to __init__.cpython-310.pyc
+[0.948s] running install_data
+[0.948s] copying resource/my_turtlebot -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/ament_index/resource_index/packages
+[0.948s] copying package.xml -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot
+[0.948s] copying launch/turtlebot_gazebo.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch
+[0.948s] copying launch/turtlebot_simulation.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch
+[0.949s] copying launch/turtlebot_bringup.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch
+[0.949s] copying launch/turtlebot_rviz.launch.py -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/launch
+[0.949s] copying rviz/rviz_launch.rviz -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/rviz
+[0.949s] copying worlds/lab_world.world -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/worlds
+[0.950s] copying maps/map.yaml -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/maps
+[0.950s] copying maps/map.pgm -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/maps
+[0.950s] copying models/Parrot Bebop 2/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+[0.950s] copying models/Parrot Bebop 2/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+[0.950s] copying models/Parrot Bebop 2/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[0.950s] copying models/Parrot Bebop 2/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[0.950s] copying models/Parrot Bebop 2/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[0.951s] copying models/Parrot Bebop 2/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[0.951s] copying models/Parrot Bebop 2/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[0.951s] copying models/Parrot Bebop 2/meshes/propeller_rl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[0.951s] copying models/Parrot Bebop 2/meshes/hull.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[0.955s] copying models/Parrot Bebop 2/meshes/propeller_rr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[0.955s] copying models/Parrot Bebop 2/meshes/propeller_fr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[0.956s] copying models/Parrot Bebop 2/meshes/propeller_fl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[0.956s] copying models/unit_box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/unit_box
+[0.956s] copying models/unit_box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/unit_box
+[0.956s] copying models/Cardboard box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+[0.957s] copying models/Cardboard box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+[0.957s] copying models/Cardboard box/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[0.957s] copying models/Cardboard box/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[0.957s] copying models/Cardboard box/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[0.958s] copying models/Cardboard box/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[0.958s] copying models/Cardboard box/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[0.958s] copying models/Cardboard box/materials/textures/cardboard_box.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures
+[0.959s] copying models/Cardboard box/meshes/cardboard_box.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes
+[0.960s] copying models/MonitorAndKeyboard/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+[0.960s] copying models/MonitorAndKeyboard/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+[0.960s] copying models/MonitorAndKeyboard/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[0.960s] copying models/MonitorAndKeyboard/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[0.960s] copying models/MonitorAndKeyboard/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[0.960s] copying models/MonitorAndKeyboard/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[0.960s] copying models/MonitorAndKeyboard/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[0.961s] copying models/MonitorAndKeyboard/meshes/monitor.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[0.961s] copying models/MonitorAndKeyboard/meshes/keyboard.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[0.961s] copying models/MonitorAndKeyboard/meshes/keyboard.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[0.961s] copying models/MonitorAndKeyboard/meshes/monitor.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[0.961s] copying models/Backpack/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack
+[0.961s] copying models/Backpack/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack
+[0.961s] copying models/Backpack/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[0.962s] copying models/Backpack/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[0.962s] copying models/Backpack/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[0.962s] copying models/Backpack/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[0.963s] copying models/Backpack/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[0.963s] copying models/Backpack/materials/textures/Backpack.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures
+[0.965s] copying models/Backpack/meshes/Backpack.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes
+[0.966s] copying models/RecTable/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable
+[0.966s] copying models/RecTable/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable
+[0.966s] copying models/RecTable/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[0.966s] copying models/RecTable/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[0.966s] copying models/RecTable/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[0.966s] copying models/RecTable/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[0.967s] copying models/RecTable/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[0.967s] copying models/RecTable/meshes/rectable.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[0.969s] copying models/RecTable/meshes/RecTable.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[0.969s] copying models/RecTable/meshes/RecTable.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[0.970s] copying models/RecTable/meshes/RecTable_Col.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[0.970s] copying models/RecTable/meshes/RecTable_Col.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[0.970s] copying models/parrot_bebop_2/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+[0.970s] copying models/parrot_bebop_2/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+[0.970s] copying models/parrot_bebop_2/meshes/propeller_rl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[0.971s] copying models/parrot_bebop_2/meshes/hull.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[0.975s] copying models/parrot_bebop_2/meshes/propeller_rr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[0.975s] copying models/parrot_bebop_2/meshes/propeller_fr.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[0.975s] copying models/parrot_bebop_2/meshes/propeller_fl.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[0.976s] copying models/Drc_practice_orange_jersey_barrier/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[0.976s] copying models/Drc_practice_orange_jersey_barrier/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[0.976s] copying models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[0.976s] copying models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes
+[0.976s] copying models/cardboard_box/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+[0.977s] copying models/cardboard_box/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+[0.977s] copying models/cardboard_box/materials/textures/cardboard_box.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures
+[0.977s] copying models/cardboard_box/meshes/cardboard_box.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes
+[0.977s] copying models/drc_practice_yellow_jersey_barrier/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[0.978s] copying models/drc_practice_yellow_jersey_barrier/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[0.978s] copying models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[0.978s] copying models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes
+[0.978s] copying models/final_project/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project
+[0.978s] copying models/final_project/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project
+[0.978s] copying models/final_project/materials/textures/gray-wall.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+[0.991s] copying models/final_project/materials/textures/MyImage.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+[0.994s] copying models/final_project/materials/scripts/wall.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+[0.994s] copying models/final_project/materials/scripts/my_ground_plane.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+[0.994s] copying models/final_project/meshes/chair.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes
+[0.996s] copying models/marker/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker
+[0.996s] copying models/marker/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker
+[0.997s] copying models/marker/materials/textures/marker_2.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.997s] copying models/marker/materials/textures/marker_3.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.997s] copying models/marker/materials/textures/marker_4.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.997s] copying models/marker/materials/textures/marker_5.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.998s] copying models/marker/materials/textures/metal_texture.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.998s] copying models/marker/materials/textures/marker_1.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[0.999s] copying models/marker/materials/scripts/my_marker_3.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[0.999s] copying models/marker/materials/scripts/my_marker_stand.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[0.999s] copying models/marker/materials/scripts/my_marker_2.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[0.999s] copying models/marker/materials/scripts/my_marker_1.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.000s] copying models/marker/materials/scripts/my_marker_4.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.000s] copying models/marker/materials/scripts/my_marker_5.material -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.000s] copying models/marker/meshes/marker_stand.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+[1.000s] copying models/marker/meshes/marker.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+[1.000s] copying models/TrashBin/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+[1.000s] copying models/TrashBin/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+[1.001s] copying models/TrashBin/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.001s] copying models/TrashBin/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.001s] copying models/TrashBin/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.001s] copying models/TrashBin/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.001s] copying models/TrashBin/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.001s] copying models/TrashBin/meshes/TrashBin_Diffuse.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.002s] copying models/TrashBin/meshes/TrashBin.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.002s] copying models/TrashBin/meshes/TrashBin.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.003s] copying models/Pioneer 3AT/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.003s] copying models/Pioneer 3AT/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.003s] copying models/Pioneer 3AT/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.003s] copying models/Pioneer 3AT/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.003s] copying models/Pioneer 3AT/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.003s] copying models/Pioneer 3AT/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.003s] copying models/Pioneer 3AT/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.004s] copying models/Pioneer 3AT/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.004s] copying models/Pioneer 3AT/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.004s] copying models/Pioneer 3AT/meshes/chassis.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+[1.004s] copying models/Pioneer 3AT/meshes/wheel.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+[1.004s] copying models/pioneer3at/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.004s] copying models/pioneer3at/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.005s] copying models/pioneer3at/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.005s] copying models/pioneer3at/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.005s] copying models/pioneer3at/meshes/chassis.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+[1.005s] copying models/pioneer3at/meshes/wheel.dae -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+[1.005s] copying models/DRC_Practice_135_degree_barriers/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.005s] copying models/DRC_Practice_135_degree_barriers/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.006s] copying models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.006s] copying models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.006s] copying models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.006s] copying models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.006s] copying models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.006s] copying models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.007s] copying models/OfficeChairBlue/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+[1.007s] copying models/OfficeChairBlue/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+[1.007s] copying models/OfficeChairBlue/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.007s] copying models/OfficeChairBlue/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.007s] copying models/OfficeChairBlue/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.008s] copying models/OfficeChairBlue/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.008s] copying models/OfficeChairBlue/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.008s] copying models/OfficeChairBlue/thumbnails/meta/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.008s] copying models/OfficeChairBlue/thumbnails/meta/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.008s] copying models/OfficeChairBlue/thumbnails/meta/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.009s] copying models/OfficeChairBlue/thumbnails/meta/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.009s] copying models/OfficeChairBlue/thumbnails/meta/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.009s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.009s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.009s] copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.010s] copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.010s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.010s] copying models/MiR100/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100
+[1.010s] copying models/MiR100/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100
+[1.010s] copying models/MiR100/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.010s] copying models/MiR100/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.011s] copying models/MiR100/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.011s] copying models/MiR100/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.011s] copying models/MiR100/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.011s] copying models/MiR100/meshes/WheelSide.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.011s] copying models/MiR100/meshes/WheelMain.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.011s] copying models/MiR100/meshes/WheelMain.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.011s] copying models/MiR100/meshes/WheelSide.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.012s] copying models/MiR100/meshes/MiR100_Diffuse.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.013s] copying models/MiR100/meshes/body.mtl -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.013s] copying models/MiR100/meshes/body.obj -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.013s] copying models/Bookshelf/model.config -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.013s] copying models/Bookshelf/bookshelf_diffuse.jpg -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.014s] copying models/Bookshelf/model-1_3.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.014s] copying models/Bookshelf/model-1_2.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.014s] copying models/Bookshelf/model.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.014s] copying models/Bookshelf/model-1_4.sdf -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.014s] copying models/Bookshelf/thumbnails/4.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.015s] copying models/Bookshelf/thumbnails/5.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.015s] copying models/Bookshelf/thumbnails/3.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.015s] copying models/Bookshelf/thumbnails/1.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.016s] copying models/Bookshelf/thumbnails/2.png -> /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.016s] running install_egg_info
+[1.017s] removing '/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.018s] Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[1.019s] running install_scripts
+[1.034s] writing list of installed files to '/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log'
+[1.051s] Invoked command in '/home/chinmay/Desktop/RobotAutonomy/src/my_turtlebot' returned '0': PYTHONPATH=/home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/prefix_override:/home/chinmay/Desktop/RobotAutonomy/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/build install --record /home/chinmay/Desktop/RobotAutonomy/build/my_turtlebot/install.log --single-version-externally-managed install_data
